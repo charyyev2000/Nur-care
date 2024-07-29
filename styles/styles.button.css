@@ -1,0 +1,18 @@
+button {
+  padding: var(--button-padding);
+
+  border: none;
+  background-color: var(--main-primary-color);
+  box-shadow: var(--box-shadow);
+  font-size: var(--font-size-m);
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+button:hover svg {
+  transform: translate(0.5rem);
+}
+
+button svg {
+  padding-left: 0.3rem;
+}
