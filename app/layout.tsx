@@ -18,18 +18,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="shortcut icon" href="/nur.ico" />
+      <head>
+        <link rel="shortcut icon" href="/images/nur.ico" />
         <script
           defer
-          data-domain="www.nur-care.com"
+          data-domain="nur-care.com"
           src="https://plausible.io/js/script.js"
         ></script>
-      </Head>
+      </head>
 
       <body className={inter.className}>
         <main>
           <Navbar />
+          {/* <img src="/images/nur.ico" alt="" /> */}
           {children}
         </main>
       </body>
