@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/nur.ico" />
         <script
           defer
-          data-domain="nur-care.com"
+          data-domain="www.nur-care.com"
           src="https://plausible.io/js/script.js"
         ></script>
       </Head>
