@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,14 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="shortcut icon" href="/nur.ico" />
         <script
           defer
           data-domain="nur-care.com"
           src="https://plausible.io/js/script.js"
         ></script>
-      </head>
+      </Head>
 
       <body className={inter.className}>
         <main>
